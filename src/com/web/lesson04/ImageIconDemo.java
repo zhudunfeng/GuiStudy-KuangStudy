@@ -10,7 +10,7 @@ public class ImageIconDemo extends JFrame {
         // 获取图片的地址 图片命名不能是数字开头, 例如1.jpg是nullPointerException
         URL url = ImageIconDemo.class.getResource("tx.jpg");
 
-        // new ImageIcon, 制作一个icon, 放在label标签上
+        // 把一个图片变成图标, 放在label标签上
         ImageIcon icon = new ImageIcon(url);
 
         JLabel label = new JLabel("My ImageIcon");
