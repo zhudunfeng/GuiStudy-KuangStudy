@@ -2,6 +2,8 @@ package com.web.lesson05;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.net.URL;
 
 public class JButtonDemo extends JFrame {
@@ -16,6 +18,12 @@ public class JButtonDemo extends JFrame {
         // 把这个图标放进button里
         JButton jButton = new JButton(imageIcon);
         jButton.setToolTipText("图片按钮");
+        jButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("hello");
+            }
+        });
 
         container.add(jButton);
 

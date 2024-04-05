@@ -3,6 +3,9 @@ package com.web.lesson05;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * 复选框
+ */
 public class JButtonDemo3 extends JFrame{
     public void init() {
         Container container = getContentPane();

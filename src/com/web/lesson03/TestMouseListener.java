@@ -3,10 +3,14 @@ package com.web.lesson03;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-// 鼠标监听事件
+/**
+ * 鼠标监听事件
+ */
 public class TestMouseListener {
     public static void main(String[] args) {
         new MyFrame("画笔");
@@ -26,6 +30,12 @@ class MyFrame extends Frame {
 
         setVisible(true);
         this.addMouseListener(new MyMouseListener());
+        this.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
     }
 
     // 鼠标监听

@@ -4,6 +4,9 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
+/**
+ * 网格布局
+ */
 public class TestGridLayout {
     public static void main(String[] args) {
         Frame frame = new Frame("GirdLayout");
@@ -37,5 +40,6 @@ public class TestGridLayout {
             }
         });
         frame.setVisible(true);
+        frame.pack();
     }
 }

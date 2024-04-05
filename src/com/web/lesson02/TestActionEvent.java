@@ -6,6 +6,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
+/**
+ * 事件监听
+ */
 public class TestActionEvent {
     public static void main(String[] args) {
         Frame frame = new Frame();

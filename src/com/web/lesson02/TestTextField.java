@@ -5,8 +5,15 @@ import org.w3c.dom.Text;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 import java.lang.reflect.Field;
 
+/**
+ * 测试文本域
+ *
+ * 输入框监听
+ */
 public class TestTextField {
     public static void main(String[] args) {
         // 启动
@@ -31,6 +38,12 @@ class MyFrame extends Frame {
 
         pack();
         setVisible(true);
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
     }
 }
 

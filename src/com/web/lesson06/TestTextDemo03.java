@@ -3,6 +3,9 @@ package com.web.lesson06;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * 文本域
+ */
 public class TestTextDemo03 extends JFrame {
     public void init() {
         Container container = getContentPane();

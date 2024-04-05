@@ -3,6 +3,8 @@ package com.web.lesson02;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 // 简易计算器  内部类
 public class TestCalc3 {
@@ -40,6 +42,12 @@ class MyCalculator3 extends Frame {
 
         pack();
         setVisible(true);
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.exit(0);
+            }
+        });
 
     }
 

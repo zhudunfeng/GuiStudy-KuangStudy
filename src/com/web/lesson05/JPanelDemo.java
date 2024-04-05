@@ -3,6 +3,9 @@ package com.web.lesson05;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * 面板布局
+ */
 public class JPanelDemo extends JFrame {
 
     public void init() {

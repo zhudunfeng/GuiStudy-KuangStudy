@@ -3,6 +3,9 @@ package com.web.lesson05;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * 文本域JScroll面板
+ */
 public class JScrollDemo extends JFrame {
     public void init() {
         Container container = getContentPane();

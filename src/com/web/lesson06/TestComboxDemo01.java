@@ -3,6 +3,9 @@ package com.web.lesson06;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * 下拉框
+ */
 public class TestComboxDemo01 extends JFrame {
     public void init() {
         Container container = getContentPane();

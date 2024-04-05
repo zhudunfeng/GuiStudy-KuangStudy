@@ -4,6 +4,9 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
+/**
+ * 流式布局
+ */
 public class TestFlowLayout {
     public static void main(String[] args) {
         Frame frame = new Frame("FlowLayout");

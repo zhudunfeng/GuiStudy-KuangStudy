@@ -1,0 +1,61 @@
+
+k
+java:S1104"PMake food a static final constant or non-public and provide accessors if needed.(ŸÓÅáüÿÿÿÿ
+E
+java:S1444"*Make this "public static left" field final(‡ú™ªøÿÿÿÿ
+F
+java:S1444"+Make this "public static upURL" field final(áªÙêùÿÿÿÿ
+F
+java:S1444"+Make this "public static right" field final(¼Øõ–üÿÿÿÿ
+E
+java:S1444"*Make this "public static food" field final(ŸÓÅáüÿÿÿÿ
+H
+java:S1444"-Make this "public static leftURL" field final(¥Ÿˆ‘ÿÿÿÿÿ
+D
+java:S1444".Make this "public static rightURL" field final(ıÄœƒ
+n
+java:S1104"SMake leftURL a static final constant or non-public and provide accessors if needed.(¥Ÿˆ‘ÿÿÿÿÿ
+J
+java:S1444
+"/Make this "public static headerURL" field final(Ùª´şÿÿÿÿ
+l
+java:S1104"QMake upURL a static final constant or non-public and provide accessors if needed.(áªÙêùÿÿÿÿ
+>
+java:S1444"(Make this "public static up" field final(¬ì©ç
+G
+java:S1444",Make this "public static header" field final(Û“Ôşÿÿÿÿ
+i
+java:S1104"SMake foodURL a static final constant or non-public and provide accessors if needed.( ¡¾õ
+l
+java:S1104"QMake right a static final constant or non-public and provide accessors if needed.(¼Øõ–üÿÿÿÿ
+C
+java:S1444"-Make this "public static bodyURL" field final(šÃ¡Œ
+j
+java:S1104"TMake rightURL a static final constant or non-public and provide accessors if needed.(ıÄœƒ
+E
+java:S1444"*Make this "public static body" field final(é´¤ùÿÿÿÿ
+k
+java:S1104"PMake down a static final constant or non-public and provide accessors if needed.(ç™Âñüÿÿÿÿ
+d
+java:S1104"NMake up a static final constant or non-public and provide accessors if needed.(¬ì©ç
+H
+java:S1444"-Make this "public static downURL" field final(ŠØÂôıÿÿÿÿ
+k
+java:S1104"PMake left a static final constant or non-public and provide accessors if needed.(‡ú™ªøÿÿÿÿ
+k
+java:S1104"PMake body a static final constant or non-public and provide accessors if needed.(é´¤ùÿÿÿÿ
+n
+java:S1104"SMake downURL a static final constant or non-public and provide accessors if needed.(ŠØÂôıÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(Ú¦Ì‰
+C
+java:S1444"-Make this "public static foodURL" field final( ¡¾õ
+E
+java:S1444"*Make this "public static down" field final(ç™Âñüÿÿÿÿ
+p
+java:S1104
+"UMake headerURL a static final constant or non-public and provide accessors if needed.(Ùª´şÿÿÿÿ
+i
+java:S1104"SMake bodyURL a static final constant or non-public and provide accessors if needed.(šÃ¡Œ
+m
+java:S1104"RMake header a static final constant or non-public and provide accessors if needed.(Û“Ôşÿÿÿÿ

@@ -3,6 +3,9 @@ package com.web.lesson04;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Swing的JFrame
+ */
 public class JFrameDemo extends JFrame{
     // init() 初始化
     public void init() {
@@ -22,6 +25,7 @@ public class JFrameDemo extends JFrame{
         Container contentPane = getContentPane();
         contentPane.setBackground(Color.YELLOW);
 
+        //退出
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
     }

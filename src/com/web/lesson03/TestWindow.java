@@ -4,6 +4,9 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
+/**
+ * 窗口监听
+ */
 public class TestWindow {
     public static void main(String[] args) {
         new MyFrameTestWindow();

@@ -3,6 +3,9 @@ package com.web.lesson06;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * 密码框
+ */
 public class TestTextDemo02 extends JFrame {
     public void init() {
         Container container = getContentPane();

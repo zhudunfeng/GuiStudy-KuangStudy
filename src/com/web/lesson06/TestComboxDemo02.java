@@ -4,6 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Vector;
 
+/**
+ * 列表框
+ */
 public class TestComboxDemo02 extends JFrame {
     public void init() {
         Container container = getContentPane();
@@ -28,8 +31,10 @@ public class TestComboxDemo02 extends JFrame {
         contents.add("2");
         contents.add("3");
 
-        container.add(jList);
-
+//        container.add(jList);
+        JPanel panel = new JPanel();
+        panel.add(jList);
+        container.add(panel);
 
         setBounds(100, 100, 300, 200);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

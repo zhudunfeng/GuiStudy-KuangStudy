@@ -2,6 +2,9 @@ package com.web.lesson01;
 
 import java.awt.*;
 
+/**
+ * 框架(主窗口)
+ */
 public class TestFrame {
     public static void main(String[] args) {
         // Frame
